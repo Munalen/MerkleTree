@@ -10,7 +10,7 @@ struct node
 
 };
 //this function does count for the leaf nodes    need header 
-struct getcount 
+
 int getcount(node )
 {
     if (node == NULL)
