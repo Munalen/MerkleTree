@@ -14,7 +14,7 @@ typedef struct {
     Hash_Function hash_function;
     merkle_tree_node *nodes;
 } merkle_tree;
-// hash.h in the header, declare 
+
 int build_tree(merkle_tree *mt, char **data);
 int tree_cmp(merkle_tree *a, merkle_tree *b, size_t i);
 int set_tree_data(merkle_tree *mt, size_t i, char *data);
