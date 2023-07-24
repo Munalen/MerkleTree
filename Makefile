@@ -4,9 +4,11 @@ CC=clang
 CFLAGS=-Wall
 
 all:
-    $(CC) $(cFLAGS) MerkleTree.c 
+	$(CC) $(cFLAGS) MerkleTree.c 
+
 exec:
-    ./func
+	./func
+
 clean:
-  rn-rf func
-  rn-rf-exc
+	rn-rf func
+	rn-rf-exc
