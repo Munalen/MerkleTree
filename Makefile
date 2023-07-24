@@ -1,6 +1,6 @@
 #this is a Makefile 
 
-CC=clang
+CC=gcc
 CFLAGS=-Wall
 
 all:
